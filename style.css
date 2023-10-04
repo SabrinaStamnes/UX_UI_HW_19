@@ -1,8 +1,30 @@
 body{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    margin: 0;
     background-color: black;
     color: white;
 }
 
+section{
+    flex-grow: 1;
+}
+
+.Work-section{
+    font-size: large;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding:10px;
+
+}
 
 *,
 *::before,
@@ -28,6 +50,13 @@ body{
     display: flex; 
     align-items: left; 
     width: 100%; 
+}
+h1.left{
+    margin-bottom: 20px; ;
+}
+
+.center.w8{
+    margin-bottom: 20px;
 }
 
 h1{
@@ -66,6 +95,7 @@ border-radius: 5px;
 
 .center button {
     background-color: black;
+    color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
@@ -77,6 +107,7 @@ border-radius: 5px;
 
     background-color: black;
 }
+
 .image-container {
     display: flex;
     justify-content: space-between; /* Adjust alignment as needed */
