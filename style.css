@@ -46,6 +46,13 @@ footer{
     padding: 20px 30px ;
 } 
 
+#About{
+
+text-align:center;
+}
+
+
+
 .left{
     display: flex; 
     align-items: left; 
@@ -83,7 +90,7 @@ p{
 .center img{
     width: 100%;
 max-width: 316px;
-height: auto;
+height: 279px;
 border: 1px solid #ccc;
 border-radius: 5px;
 
